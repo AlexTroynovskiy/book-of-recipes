@@ -1,0 +1,82 @@
+.gallery {
+  padding: 50px, 40px, 40px, 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  flex-grow: 1;
+  height: 100%;
+  width: 60%;
+  height: 800px;
+  background: #e5e5e5;
+}
+
+.gallery-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.logo {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #ebc060;
+  color: #ebc060;
+}
+.box-add {
+  display: flex;
+  flex-direction: row;
+  vertical-align: bottom;
+  margin-top: 5px;
+}
+.card-recipe {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 300px;
+  height: 180px;
+}
+.recipe-img {
+  margin: 0 auto;
+  width: 300px;
+  height: 170px;
+  border-radius: 30px;
+}
+.add-recipeText {
+  font-size: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #e6af33;
+  margin-left: 20px;
+}
+.nameRecipe {
+  position: absolute;
+  margin: 0 auto;
+  top: 130px;
+  left: 70px;
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+.btn-view {
+  color: whitesmoke;
+  position: absolute;
+  top: 110px;
+  left: 60px;
+  width: 90px;
+  height: 20px;
+  background: #32afa9;
+  border-radius: 20px;
+  border: none;
+}
